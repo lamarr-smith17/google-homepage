@@ -4,6 +4,12 @@
     margin: 0;
     background-color: #FFFFFF;
 }
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
 
 
 
@@ -22,13 +28,16 @@
     padding-top: 250px;
     padding-left: 50px;
 }
-#searchbar {
+.searchbar {
     display: flex;
     justify-content: center;
-    height: 5%;
-    width: 10%;
-    align-self: center;
-   
-
-    
+    align-content: center;
+    max-height: 5%;
+    max-width: 10%;
+        
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
 }
