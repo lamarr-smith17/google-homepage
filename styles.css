@@ -1,1 +1,34 @@
-ECHO is on.
+/* Global Styles */
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+
+
+/* Main Content */
+.main-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+#google-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+    padding-left: 50px;
+}
+#searchbar {
+    display: flex;
+    justify-content: center;
+    height: 5%;
+    width: 10%;
+    align-self: center;
+   
+
+    
+}
