@@ -22,26 +22,54 @@ body {
     padding: 10px 0px;
 }
 #google-logo {
+    position: absolute;
     justify-content: center;
     align-items: center;
-    padding-top: 250px;
-    padding-left: 50px;
+    top: 250px;
 }
 #searchbar {
     position: absolute;
     justify-content: center;
     align-items: center;
-    left: 40%;
+    left: 35%;
+    height: 30px;
+    width: 550px;
+    top: 350px;
       
 }
 .searchbar input{
     border-radius: 15px;
     width: 20%;
 }
-.buttons {
+#google-search {
     position: absolute;
-    top: 55%;
-    left: 45%;
-    justify-content: center;
-    align-content: space-around;
+    margin: 0% auto;
+    color:  #C0C0C0;
+    top: 400px;
+    left: 42%;
+    padding: 10px 10px;
+    opacity: 80%;
+    transition-duration: 0.1s;
+}
+
+#google-search:hover {
+    opacity: 100%;
+    color: #000000;
+    box-shadow: 1px 1px 1px  #737373
+}
+#feeling-lucky {
+    position: absolute;
+    color:  #C0C0C0;
+    margin: 0% auto;
+    top: 400px;
+    left: 50%;
+    padding: 10px 10px;
+    opacity: 40%;
+    transition-duration: 0.1s;
+}
+
+#feeling-lucky:hover {
+    opacity: 100%;
+    color: #000000;
+    box-shadow: 1px 1px 1px  #737373
 }
