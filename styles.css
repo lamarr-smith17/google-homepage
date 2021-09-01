@@ -22,22 +22,26 @@ body {
     padding: 10px 0px;
 }
 #google-logo {
-    display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 250px;
     padding-left: 50px;
 }
-.searchbar {
-    display: flex;
+#searchbar {
+    position: absolute;
     justify-content: center;
-    align-content: center;
-    max-height: 5%;
-    max-width: 10%;
-        
+    align-items: center;
+    left: 40%;
+      
+}
+.searchbar input{
+    border-radius: 15px;
+    width: 20%;
 }
 .buttons {
-    display: flex;
+    position: absolute;
+    top: 55%;
+    left: 45%;
     justify-content: center;
-    align-content: space-between;
+    align-content: space-around;
 }
