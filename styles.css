@@ -73,3 +73,53 @@ body {
     color: #000000;
     box-shadow: 1px 1px 1px  #737373
 }
+
+/* Navbar Styles */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#about-link {
+    display: block;
+    float: left;
+    color:  #808080;
+    text-align: center;
+    padding: 1px 10px;
+    text-decoration: none;
+    transition-duration: 0s;    
+}
+
+#store-link {
+    display: block;
+    float: left;
+    color:  #808080;
+    text-align: center;
+    padding: 1px 10px;
+    text-decoration: none;
+    transition-duration: 0s;
+}
+
+#gmail-link {
+    float: right;
+    color:  #808080;
+    text-align: center;
+    padding: 1px 10px;
+    text-decoration: none;
+    transition-duration: 0s;
+}
+
+#images-link {
+    float: right;
+    color:  #808080;
+    text-align: center;
+    padding: 1px 10px;
+    text-decoration: none;
+    transition-duration: 0s;
+}
+#button {
+    float: right;
+}
