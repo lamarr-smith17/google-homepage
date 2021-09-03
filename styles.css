@@ -49,6 +49,8 @@ body {
     left: 42%;
     padding: 10px 10px;
     opacity: 80%;
+    border-radius: 5px;
+    border: 1px solid;
     transition-duration: 0.1s;
 }
 
@@ -65,6 +67,8 @@ body {
     left: 50%;
     padding: 10px 10px;
     opacity: 80%;
+    border-radius: 5px;
+    border: 1px solid;
     transition-duration: 0.1s;
 }
 
@@ -155,17 +159,19 @@ ul {
 
 /* Footer Navbar Styles */
 .footer-navbar {
-    background-color:  #CCCCCC;
     overflow: hidden;
     position: fixed;
     bottom: 0;
     width: 100%;
+    background-color:#EFEFEF;
 }
 .footer-navbar a{
     text-decoration: none;
     display: block;
     text-align: center;
     color: #323232;
+    background-color:#EFEFEF;
+
 }
 
 #ad-link {
@@ -174,16 +180,26 @@ ul {
 }
 #business-link{
     float: left;
+    padding: 10px 10px;
+
 }
 #how-sworks{
     float: left;
+    padding: 10px 10px;
+
 }
 #privacy-link{
     float: right;
+    padding: 10px 10px;
+
 }
 #terms-link{
     float: right;
+    padding: 10px 10px;
+
 }
 #settings-link{
     float: right;
+    padding: 10px 10px;
+
 }
