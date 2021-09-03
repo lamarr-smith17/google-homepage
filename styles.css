@@ -136,10 +136,18 @@ ul {
     text-decoration: underline;
     color:  #323232;
 }
+#google-apps{
+    position: relative;
+    float: right;
+    color: #323232;
+    padding: 1px 5px;
+    transition-duration: 0s;
+}
+
 #sign-in {
     float: right;
     padding: 10px 10px;
-    left: 500px;
+    right: auto;
     color: #FFFFFF;
     background-color:  #4D4DFF;
     border:  #4D4DFF;
