@@ -86,40 +86,62 @@ ul {
 #about-link {
     display: block;
     float: left;
-    color:  #808080;
+    color:  #323232;
     text-align: center;
     padding: 1px 10px;
     text-decoration: none;
     transition-duration: 0s;    
 }
+#about-link:hover{
+    text-decoration: underline;
+    color: #323232;
+}
 
 #store-link {
     display: block;
     float: left;
-    color:  #808080;
+    color:  #323232;
     text-align: center;
     padding: 1px 10px;
     text-decoration: none;
     transition-duration: 0s;
+}
+#store-link:hover{
+    text-decoration: underline;
+    color: #323232;
 }
 
 #gmail-link {
     float: right;
-    color:  #808080;
+    color:  #323232;
     text-align: center;
     padding: 1px 10px;
     text-decoration: none;
     transition-duration: 0s;
+}
+#gmail-link:hover{
+    text-decoration: underline;
+    color:#323232;
 }
 
 #images-link {
     float: right;
-    color:  #808080;
+    color:#323232;
     text-align: center;
     padding: 1px 10px;
     text-decoration: none;
     transition-duration: 0s;
 }
-#button {
+#images-link:hover{
+    text-decoration: underline;
+    color:  #323232;
+}
+#sign-in {
     float: right;
+    padding: 10px 10px;
+    left: 500px;
+    color: #FFFFFF;
+    background-color:  #4D4DFF;
+    border:  #4D4DFF;
+    text-align: center;
 }
