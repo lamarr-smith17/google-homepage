@@ -33,10 +33,11 @@ body {
     align-items: center;
     left: 35%;
     height: 30px;
-    width: 550px;
+    width: 450px;
     top: 350px;
-      
+    transition-duration: 0s;  
 }
+
 .searchbar input{
     border-radius: 15px;
     width: 20%;
@@ -44,7 +45,8 @@ body {
 #google-search {
     position: absolute;
     margin: 0% auto;
-    color:  #C0C0C0;
+    background-color: #EBEBEB;
+    color:#A4A4A4;
     top: 400px;
     left: 42%;
     padding: 10px 10px;
@@ -61,7 +63,8 @@ body {
 }
 #feeling-lucky {
     position: absolute;
-    color:  #C0C0C0;
+    background-color:#EBEBEB;
+    color:#A4A4A4;
     margin: 0% auto;
     top: 400px;
     left: 50%;
