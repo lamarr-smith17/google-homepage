@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Google Test</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="main-body">
+            <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        </div>
+        <div class="searchbar">
+            <input id="searchbar" type="text" placeholder="">
+        </div>
+        <div class="buttons">
+            <button id="google-search" type="submit" value="google-search">Google Search</button>
+            <button id="feeling-lucky" type="submit" value="feeling-lucky">I'm Feeling Lucky</button>
+            <button id="sign-in" type="button" value="sign-in">Sign In</button>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a id="about-link" href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header" target="_blank">About</a>
+                </li>
+                <li><a id="store-link" href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US" target="_blank">Store</a>
+                </li>
+                <li></li>
+                <li><a href="https://about.google/intl/en/products/" target="_blank"><img id="google-apps" src="/imgs/apps_black_24dp.svg" alt="Google Apps"></a>
+                </li>
+                <li><a id="images-link" href="https://www.google.com/imghp?hl=en&ogbl" target="_blank">Images</a>
+                </li>
+                <li><a id="gmail-link" href="https://mail.google.com/mail" target="_blank">Gmail</a>
+            </ul>
+        </nav>
+
+        
+    </body>
+    
+    <footer class="footer">
+        <nav class="footer-navbar">
+            <ul>
+                <li><a id="ad-link" href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+                    target="_blank"> Advertising
+                    </a>
+                </li>
+                <li><a id="business-link" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1"
+                    target="_blank"> Business
+                </a>
+                </li>
+                <li><a id="how-sworks" href="https://google.com/search/howsearchworks/?fg=1" target="_blank">How Search Works</a>
+                </li>
+                <li><a id="settings-link" href="">Settings</a>
+                <li><a id="terms-link" href="https://policies.google.com/terms?hl=en&fg=1" target="_blank">Terms</a>
+                </li>
+                <li><a id="privacy-link" href="https://policies.google.com/privacy?hl=en&fg=1" target="_blank">Privacy</a>
+            </ul>
+        </nav>
+
+    </footer>
+</html>
