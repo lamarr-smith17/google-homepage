@@ -1,0 +1,205 @@
+/* Global Styles */
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFFF;
+}
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
+
+
+
+/* Main Content */
+.main-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+#google-logo {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 250px;
+}
+#searchbar {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 35%;
+    height: 30px;
+    width: 550px;
+    top: 350px;
+      
+}
+.searchbar input{
+    border-radius: 15px;
+    width: 20%;
+}
+#google-search {
+    position: absolute;
+    margin: 0% auto;
+    color:  #C0C0C0;
+    top: 400px;
+    left: 42%;
+    padding: 10px 10px;
+    opacity: 80%;
+    border-radius: 5px;
+    border: 1px solid;
+    transition-duration: 0.1s;
+}
+
+#google-search:hover {
+    opacity: 100%;
+    color: #000000;
+    box-shadow: 1px 1px 1px  #737373
+}
+#feeling-lucky {
+    position: absolute;
+    color:  #C0C0C0;
+    margin: 0% auto;
+    top: 400px;
+    left: 50%;
+    padding: 10px 10px;
+    opacity: 80%;
+    border-radius: 5px;
+    border: 1px solid;
+    transition-duration: 0.1s;
+}
+
+#feeling-lucky:hover {
+    opacity: 100%;
+    color: #000000;
+    box-shadow: 1px 1px 1px  #737373
+}
+
+/* Navbar Styles */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#about-link {
+    display: block;
+    float: left;
+    color:  #323232;
+    text-align: center;
+    padding: 1px 10px;
+    text-decoration: none;
+    transition-duration: 0s;    
+}
+#about-link:hover{
+    text-decoration: underline;
+    color: #323232;
+}
+
+#store-link {
+    display: block;
+    float: left;
+    color:  #323232;
+    text-align: center;
+    padding: 1px 10px;
+    text-decoration: none;
+    transition-duration: 0s;
+}
+#store-link:hover{
+    text-decoration: underline;
+    color: #323232;
+}
+
+#gmail-link {
+    float: right;
+    color:  #323232;
+    text-align: center;
+    padding: 1px 10px;
+    text-decoration: none;
+    transition-duration: 0s;
+}
+#gmail-link:hover{
+    text-decoration: underline;
+    color:#323232;
+}
+
+#images-link {
+    float: right;
+    color:#323232;
+    text-align: center;
+    padding: 1px 10px;
+    text-decoration: none;
+    transition-duration: 0s;
+}
+#images-link:hover{
+    text-decoration: underline;
+    color:  #323232;
+}
+#google-apps{
+    position: relative;
+    float: right;
+    color: #323232;
+    padding: 1px 5px;
+    transition-duration: 0s;
+}
+
+#sign-in {
+    float: right;
+    padding: 10px 10px;
+    right: auto;
+    color: #FFFFFF;
+    background-color:  #4D4DFF;
+    border:  #4D4DFF;
+    text-align: center;
+}
+
+/* Footer Navbar Styles */
+.footer-navbar {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:#EFEFEF;
+}
+.footer-navbar a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: #323232;
+    background-color:#EFEFEF;
+
+}
+
+#ad-link {
+    float: left;
+    padding: 10px 10px;
+}
+#business-link{
+    float: left;
+    padding: 10px 10px;
+
+}
+#how-sworks{
+    float: left;
+    padding: 10px 10px;
+
+}
+#privacy-link{
+    float: right;
+    padding: 10px 10px;
+
+}
+#terms-link{
+    float: right;
+    padding: 10px 10px;
+
+}
+#settings-link{
+    float: right;
+    padding: 10px 10px;
+
+}
