@@ -22,7 +22,9 @@ li {
 .top-left a {
     padding: 10px;
     color: #000000;
-    font-size: 14px;
+}
+.top-left a:hover{
+    text-decoration: underline;
 }
 .top-right {
     display: inline;
@@ -31,7 +33,9 @@ li {
 .top-right a {
     padding: 10px;
     color: #000000;
-    font-size: 14px;
+}
+.top-right a:hover{
+    text-decoration: underline;
 }
 
 /* Center Styles */
@@ -48,11 +52,33 @@ li {
     height: 150;
     width:500px;
 }
+.searchbar-container {
+    display: flex;
+    width:582px;
+    height: 44px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    background: #fff;
+}
+.searchbar-container:hover{
+    box-shadow: 0 0 5px  #808080;
+}
 
 .searchbar{
-    width:450px;
-    height: 25px;
-    border-radius: 10px;
+   height: 20px;
+   width: 500px;
+   margin-top: 10px;
+   margin-left: 50px;
+   border: none;
+   outline: none;
+}
+
+
+.search-icon {
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #808080;
 }
 
 .search-buttons{
@@ -93,11 +119,15 @@ footer{
     border-top: 1px solid #e4e4e4;
     padding: 20px;
     gap: 12px;
+    line-height: 10px;
 }
 
 .bottom-left a {
     color: #5f6368;
 
+}
+.bottom-left a:hover {
+    text-decoration: underline;
 }
 .right {
     display: flex;
@@ -107,4 +137,7 @@ footer{
 
 .bottom-right a{
     color: #5f6368;
+}
+.bottom-right a:hover {
+    text-decoration: underline;
 }
