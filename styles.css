@@ -82,33 +82,29 @@ li {
 
 /* Footer Styles */
 footer{
-    bottom: 0;
-    position: fixed;
+   width: 100%;
+   bottom: 0;
+   position: fixed;
+}
+
+.footer-links {
+    display: flex;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
     padding: 20px;
-    width: 100%;
+    gap: 12px;
 }
 
-.footer-header {
+.bottom-left a {
+    color: #5f6368;
+
+}
+.right {
+    display: flex;
+    margin-left: auto;
+    gap: 12px;
 }
 
-.bottom-left {
-    display: inline;
-    float: left;
-}
-.bottom-left a{
-    padding: 10px;
-}
-.middle-link {
-    display: inline;
-    
-}
-.middle-link a {
-    left: 50%;
-}
-.bottom-right {
-    display: inline;
-    float: right;
-}
-.bottom-right a {
-    padding: 10px;
+.bottom-right a{
+    color: #5f6368;
 }
