@@ -37,7 +37,18 @@ li {
 .top-right a:hover{
     text-decoration: underline;
 }
-
+.sign-button {
+    border: 1px solid #4285f4;
+    background-color: #4285f4;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+    padding: 0 12px;
+    border-radius: 2px;
+    line-height: 28px;
+    justify-content: center;
+    align-content: center;
+}
 /* Center Styles */
 .container-one {
     display: flex;
