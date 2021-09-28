@@ -4,7 +4,7 @@ This site is currently not responsive, however, I do plan on coming back to this
 THIS SITE HAS BEEN UPDATED TO BETTER REFLECT MY UNDERSTANDING OF CSS POSITION AND CSS FLEXBOX. 
 
 Old Version:
-<img src="./imgs/oldrecreation.png">
+<img src="imgs/oldrecreation.PNG">
 
 
 
