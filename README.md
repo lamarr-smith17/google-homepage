@@ -5,8 +5,10 @@ THIS SITE HAS BEEN UPDATED TO BETTER REFLECT MY UNDERSTANDING OF CSS POSITION AN
 
 Old Version:
 <img src="imgs/oldrecreation.PNG">
+New Version: 
+<img src="imgs/newversion.png">
 
-
+The new version's code is cleaner and has more structure than compared to the previous version. The main container is centered correctly and the hover states match those of the actual Google homepage.
 
   
   
